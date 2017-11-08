@@ -292,7 +292,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := dsi_config.xml
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(PRODUCT_OUT)/system/etc/data
+LOCAL_MODULE_PATH := $(PRODUCT_OUT)/system/vendor/etc/data
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := vendor/etc/data/dsi_config.xml
 LOCAL_MODULE_OWNER := qti
@@ -301,7 +301,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := netmgr_config.xml
 LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(PRODUCT_OUT)/system/etc/data
+LOCAL_MODULE_PATH := $(PRODUCT_OUT)/system/vendor/etc/data
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := vendor/etc/data/netmgr_config.xml
 LOCAL_MODULE_OWNER := qti
